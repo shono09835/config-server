@@ -171,7 +171,7 @@ func generateCertTemplate(cParams certParams) (x509.Certificate, error) {
 	}
 
 	now := time.Now()
-	notAfter := now.Add(365 * 24 * time.Hour)
+	notAfter := now.Add(20 * 365 * 24 * time.Hour)
 
 	if cParams.Duration > 0 {
 		notAfter = now.Add(time.Duration(cParams.Duration*24) * time.Hour)

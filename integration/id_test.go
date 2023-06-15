@@ -7,7 +7,7 @@ import (
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/gexec"
 
-	. "github.com/cloudfoundry/config-server/integration/support"
+	. "github.com/shono09835/config-server/integration/support"
 )
 
 var _ = Describe("Supported HTTP Methods", func() {

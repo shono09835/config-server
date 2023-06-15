@@ -3,7 +3,7 @@ package store
 import (
 	"strings"
 
-	"github.com/cloudfoundry/config-server/config"
+	"github.com/shono09835/config-server/config"
 
 	"github.com/cloudfoundry/bosh-utils/errors"
 )

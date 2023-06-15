@@ -14,8 +14,8 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/cloudfoundry/config-server/config"
-	"github.com/cloudfoundry/config-server/store/db_migrations"
+	"github.com/shono09835/config-server/config"
+	"github.com/shono09835/config-server/store/db_migrations"
 )
 
 type concreteDbProvider struct {

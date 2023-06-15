@@ -5,7 +5,7 @@ import (
 	"database/sql"
 	"sync"
 
-	"github.com/cloudfoundry/config-server/store"
+	"github.com/shono09835/config-server/store"
 )
 
 type FakeIDb struct {

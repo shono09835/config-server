@@ -5,10 +5,10 @@ import (
 	"encoding/json"
 	"encoding/pem"
 
-	"github.com/cloudfoundry/config-server/server"
-	"github.com/cloudfoundry/config-server/store"
-	. "github.com/cloudfoundry/config-server/store/storefakes"
-	"github.com/cloudfoundry/config-server/types"
+	"github.com/shono09835/config-server/server"
+	"github.com/shono09835/config-server/store"
+	. "github.com/shono09835/config-server/store/storefakes"
+	"github.com/shono09835/config-server/types"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

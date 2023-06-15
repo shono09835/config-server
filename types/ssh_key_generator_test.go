@@ -10,7 +10,7 @@ import (
 	"golang.org/x/crypto/ssh"
 	"gopkg.in/yaml.v2"
 
-	. "github.com/cloudfoundry/config-server/types"
+	. "github.com/shono09835/config-server/types"
 )
 
 var _ = Describe("SSHKeyGenerator", func() {

@@ -10,8 +10,8 @@ import (
 	"strings"
 
 	"github.com/cloudfoundry/bosh-utils/errors"
-	"github.com/cloudfoundry/config-server/store"
-	"github.com/cloudfoundry/config-server/types"
+	"github.com/shono09835/config-server/store"
+	"github.com/shono09835/config-server/types"
 )
 
 type requestHandler struct {

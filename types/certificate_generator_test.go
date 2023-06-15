@@ -1,13 +1,13 @@
 package types_test
 
 import (
-	. "github.com/cloudfoundry/config-server/types"
+	. "github.com/shono09835/config-server/types"
 
 	"crypto/x509"
 	"encoding/pem"
 	"time"
 
-	"github.com/cloudfoundry/config-server/types/typesfakes"
+	"github.com/shono09835/config-server/types/typesfakes"
 
 	"strings"
 

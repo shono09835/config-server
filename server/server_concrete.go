@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/cloudfoundry/config-server/config"
-	"github.com/cloudfoundry/config-server/store"
-	"github.com/cloudfoundry/config-server/types"
+	"github.com/shono09835/config-server/config"
+	"github.com/shono09835/config-server/store"
+	"github.com/shono09835/config-server/types"
 
 	"github.com/cloudfoundry/bosh-utils/errors"
 )

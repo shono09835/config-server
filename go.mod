@@ -1,4 +1,4 @@
-module github.com/cloudfoundry/config-server
+module github.com/shono09835/config-server
 
 go 1.20
 

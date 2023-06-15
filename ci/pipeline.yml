@@ -198,21 +198,21 @@ resources:
   - name: config-server
     type: git
     source:
-      uri: git@github.com:cloudfoundry/config-server.git
+      uri: git@github.com:shono09835/config-server.git
       branch: develop
       private_key: ((github_deploy_key_config-server.private_key))
 
   - name: config-server-promoted
     type: git
     source:
-      uri: git@github.com:cloudfoundry/config-server.git
+      uri: git@github.com:shono09835/config-server.git
       branch: master
       private_key: ((github_deploy_key_config-server.private_key))
 
   - name: config-server-release
     type: git
     source:
-      uri: git@github.com:cloudfoundry/config-server-release.git
+      uri: git@github.com:shono09835/config-server-release.git
       branch: master
       private_key: ((github_deploy_key_config-server-release.private_key))
 

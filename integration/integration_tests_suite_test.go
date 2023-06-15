@@ -21,7 +21,7 @@ func TestIntegrationTests(t *testing.T) {
 }
 
 var _ = SynchronizedBeforeSuite(func() []byte {
-	configServerPath, err := gexec.Build("github.com/cloudfoundry/config-server")
+	configServerPath, err := gexec.Build("github.com/shono09835/config-server")
 	Expect(err).NotTo(HaveOccurred())
 	return []byte(configServerPath)
 }, func(data []byte) {

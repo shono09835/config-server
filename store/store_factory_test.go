@@ -1,9 +1,9 @@
 package store_test
 
 import (
-	. "github.com/cloudfoundry/config-server/store"
+	. "github.com/shono09835/config-server/store"
 
-	"github.com/cloudfoundry/config-server/config"
+	"github.com/shono09835/config-server/config"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

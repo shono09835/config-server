@@ -11,7 +11,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	. "github.com/cloudfoundry/config-server/server"
+	. "github.com/shono09835/config-server/server"
 )
 
 var _ = Describe("JwtTokenValidator", func() {

@@ -5,7 +5,7 @@ import (
 	"sync"
 
 	"github.com/BurntSushi/migration"
-	"github.com/cloudfoundry/config-server/store"
+	"github.com/shono09835/config-server/store"
 )
 
 type FakeISql struct {

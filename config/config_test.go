@@ -6,7 +6,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	. "github.com/cloudfoundry/config-server/config"
+	. "github.com/shono09835/config-server/config"
 )
 
 var _ = Describe("ParseConfig", func() {

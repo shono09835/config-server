@@ -1,7 +1,7 @@
 package server_test
 
 import (
-	. "github.com/cloudfoundry/config-server/server"
+	. "github.com/shono09835/config-server/server"
 
 	"errors"
 

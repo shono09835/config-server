@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/cloudfoundry/config-server/config"
-	"github.com/cloudfoundry/config-server/log"
-	"github.com/cloudfoundry/config-server/server"
+	"github.com/shono09835/config-server/config"
+	"github.com/shono09835/config-server/log"
+	"github.com/shono09835/config-server/server"
 )
 
 func main() {

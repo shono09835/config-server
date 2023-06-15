@@ -6,7 +6,7 @@ import (
 	"crypto/x509"
 	"sync"
 
-	"github.com/cloudfoundry/config-server/types"
+	"github.com/shono09835/config-server/types"
 )
 
 type FakeCertsLoader struct {
